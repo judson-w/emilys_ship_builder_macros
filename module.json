@@ -1,0 +1,28 @@
+{
+  "id": "emilys-ship-builder-macros",
+  "title": "Emily's Ship Builder Macros",
+  "version": "1.0.0",
+  "manifest": "https://github.com/judson-w/emilys_ship_builder_macros/releases/latest/download/module.json",
+  "download": "https://github.com/judson-w/emilys_ship_builder_macros/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "ship_perks",
+      "label": "Ship Perk Macros",
+      "path": "packs/ship_perks",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "lancer"
+    }
+  ],
+  "description": ""
+}
